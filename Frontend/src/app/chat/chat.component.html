@@ -76,7 +76,7 @@
                 </div>
                 <div class="img_cont_msg">
                   <span
-                    class="rounded-circle user_img_msg text_inside_circle2">{{msg.senderEmail?.substring(0,1)}}</span>
+                    class="rounded-circle user_img_msg text_inside_circle2">{{msg.senderEmail.substring(0,1)}}</span>
                 </div>
               </div>
 
@@ -84,7 +84,7 @@
               <div class="d-flex justify-content-start mb-4" *ngIf="msg.senderEmail!=senderCheck">
                 <div class="img_cont_msg">
                   <span
-                    class="rounded-circle user_img_msg text_inside_circle3">{{msg.senderEmail?.substring(0,1)}}</span>
+                    class="rounded-circle user_img_msg text_inside_circle3">{{msg.senderEmail.substring(0,1)}}</span>
                 </div>
                 <div class="msg_cotainer">
                   {{msg.replymessage}}
